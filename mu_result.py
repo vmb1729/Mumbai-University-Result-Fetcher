@@ -36,7 +36,7 @@ if len(sys.argv) < 5:
     print "$ python mu_result.py <exam_month> <exam_year> <exam_id> <starting_seat_no> <ending_seat_no>"
     sys.exit(1)
 
-result_uri = "http://results.mu.ac.in/get_resultb.php"
+result_uri = "http://results.mu.ac.in/get_resultc.php"
 
 exam_month = sys.argv[1]
 exam_year = sys.argv[2]
